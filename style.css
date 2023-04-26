@@ -1,0 +1,54 @@
+/* HEX
+light purple: #9aabd8
+dark blue: #1b244a
+light gray: #eeeeee 
+red (score): #f94f6d */
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1b244a;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 800px;
+}
+
+.team-name {
+    color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #080001;
+    width: 160px;
+    height: 120px;
+}
+
+#home-score-el {
+    font-family: digital;
+    font-size: 90px;
+    color: #f94f6d;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#guest-score-el {
+    font-family: digital;
+    font-size: 90px;
+    color: #f94f6d;
+    margin: 0;
+    padding-top: 20px;
+}
