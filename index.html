@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Basketball Scoreboard</title>
   </head>
   <body>
@@ -12,18 +12,25 @@
       <div class="team-container">
         <h3 class="team-name">HOME</h3>
         <div class="score">
-            <h1 id="home-score-el"></h1>
+          <h1 id="home-score-el"></h1>
         </div>
         <div class="score-add">
-            
+          <button onclick="addHomeOne()">+1</button>
+          <button onclick="addHomeTwo()">+2</button>
+          <button onclick="addHomeThree()">+3</button>
         </div>
       </div>
       <div class="team-container">
         <h3 class="team-name">GUEST</h3>
         <div class="score">
-            <h1 id="guest-score-el"></h1>
+          <h1 id="guest-score-el"></h1>
+        </div>
+        <div class="score-add">
+          <button onclick="addGuestOne()">+1</button>
+          <button onclick="addGuestTwo()">+2</button>
+          <button onclick="addGuestThree()">+3</button>
+        </div>
       </div>
-    </div>
     </div>
     <script src="script.js"></script>
   </body>
