@@ -4,9 +4,15 @@ document.querySelector("#home-score-el").textContent = homeScore;
 document.querySelector("#guest-score-el").textContent = guestScore;
 
 function resetHome() {
-    let homeScore = 0;
-    document.querySelector("#home-score-el").textContent = homeScore;
-    console.log(homeScore);
+    let newHomeScore = 0;
+    document.querySelector("#home-score-el").textContent = newHomeScore;
+    homeScore = newHomeScore;
+}
+
+function resetGuest() {
+    let newGuestScore = 0;
+    document.querySelector("#guest-score-el").textContent = newGuestScore;
+    guestScore = newGuestScore;
 }
 
 function addHomeOne() {
