@@ -52,3 +52,38 @@ body {
     margin: 0;
     padding-top: 20px;
 }
+
+.score-add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+
+.score-button {
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    background: none;
+    color: #9aabd8;
+    font-family: digital;
+    font-weight: bold;
+    margin: 20px 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.reset-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    background: none;
+    border: 2px solid #9aabd8;
+    margin: 0 100px;
+    font-family: digital;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 8px;
+    color: #9aabd8;
+}
