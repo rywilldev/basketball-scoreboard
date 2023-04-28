@@ -17,16 +17,24 @@ function addHomeTwo() {
 
 function addHomeThree() {
     homeScore.textContent = homeScore += 3;
+    document.querySelector("#home-score-el").textContent = homeScore;
+    console.log(homeScore);
 }
 
 function addGuestOne() {
     guestScore.textContent = guestScore += 1;
+    document.querySelector("#guest-score-el").textContent = guestScore;
+    console.log(guestScore);
 }
 
-function addHomeTwo() {
+function addGuestTwo() {
     guestScore.textContent = guestScore += 2;
+    document.querySelector("#guest-score-el").textContent = guestScore;
+    console.log(guestScore);
 }
 
-function addHomeThree() {
+function addGuestThree() {
     guestScore.textContent = guestScore += 3;
+    document.querySelector("#guest-score-el").textContent = guestScore;
+    console.log(guestScore);
 }
