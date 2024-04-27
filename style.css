@@ -33,8 +33,8 @@ body {
     justify-content: center;
     align-items: center;
     background: #080001;
-    width: 160px;
-    height: 120px;
+    width: 260px;
+    height: 220px;
 }
 
 #home-score-el {
@@ -54,9 +54,10 @@ body {
 }
 
 .score-add-container {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    margin: auto;
     width: 160px;
 }
 
